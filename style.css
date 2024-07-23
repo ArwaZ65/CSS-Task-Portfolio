@@ -92,6 +92,7 @@ section>#name,section>#job {
     display: grid;
     grid-column: 1/3;
     margin: 3rem auto 5rem auto;
+    transform: translateY(-140px);
 }
 
 .projects {
@@ -155,12 +156,12 @@ article {
 
 }
 .about-info{
-    padding: 3rem;
+    padding: 2rem;
     margin-right: 5rem;
 }
 .about-info>p{
     width: 100%;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: #ccc;
 }
 .about-info>H2{
@@ -243,8 +244,12 @@ footer {
     .me>img{
         margin: 0;
     }
+    
     .about-info>P{
         font-size: 1.4rem;
+    }
+    .me>img{
+        width: 100%;
     }
 
 }
