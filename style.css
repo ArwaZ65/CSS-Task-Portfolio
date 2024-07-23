@@ -20,6 +20,9 @@ body {
     /* width: 100%; */
     max-width: 100%;
 }
+#imgbox{
+    margin: 2rem 3rem 10rem;
+}
 .projectimg:hover{
     opacity: 0.8;
 }
@@ -185,7 +188,9 @@ section>#job {
     background-color:#ccc;
     color: #45567d;
 }
-
+.animate__animated.animate__fadeIn{
+    animation-iteration-count: infinite;
+}
 form {
     display: flex;
     flex-direction: column;
@@ -204,7 +209,7 @@ footer {
     padding: 1rem;
     text-align: center;
 }
-@media (max-width: 75em) {
+@media (max-width: 85em) {
     html {
         font-size: 60%;
     }
